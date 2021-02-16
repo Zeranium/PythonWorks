@@ -21,4 +21,4 @@ print("set1_list[2] :", set1_list[2])
 
 print("set2_list[0] :", set2_list[0])
 print("set2_list[1] :", set2_list[1])
-print("set2_list[2] :", set2_list[2])
+print("set2_list[2] :", set2_list[2])ㅇ
