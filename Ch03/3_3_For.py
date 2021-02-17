@@ -74,12 +74,14 @@ print("점수 합 :", total)
 nums = (10, 20, 30, 40, 50)
 
 for n in nums:
-    print("n :", nums)
+    print("nums :", n)
 
 for animal in ("사자", "호랑이", "독수리"):
     print("animal :", animal)
 
-"""
-print(" "*5+"@"+" "*5)
-for k in range
-"""
+
+print(" "*10+"@"+" "*11)
+for k in range(10, 0, -1):
+    print(" "*k+"*"*(11-k)+"*"*(10-k))
+print(" "*9+"|||")
+print(" "*9+"|||")
