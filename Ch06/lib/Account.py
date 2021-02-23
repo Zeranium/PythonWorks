@@ -1,6 +1,6 @@
 # 은행계좌 클래스
 
-class Account
+class Account :
     # Attribute(변수)
     bank = None
     id = None
@@ -11,10 +11,11 @@ class Account
     def deposit(self, cash):
         self.balance += cash
 
-    def withdraw(self):
+    def withdraw(self, cash):
         self.balance -= cash
 
     def show(self):
+        print("------------------------------")
         print("은행명 :", self.bank)
         print("계좌번호 :", self.id)
         print("입금주 :", self.name)
