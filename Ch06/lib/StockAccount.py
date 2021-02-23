@@ -15,7 +15,7 @@ class StockAccount(Account):
     def buy(self, stock, amount, price):
         self.__stock = stock
         self.__amount += amount
-        self.__price = price
+        self.price = price
 
     def sell(self, stock, amount, price):
         self.__stock = stock
