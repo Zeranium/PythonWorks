@@ -46,3 +46,4 @@ kim.hello()
 
 lee = Person("이순신", 35)
 lee.hello()
+
