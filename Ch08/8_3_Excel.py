@@ -5,7 +5,7 @@
 """
 
 import pandas as pd
-from openpyxl import workbook
+from openpyxl import Workbook
 
 # CSV 특수파일 읽기
 exam = pd.read_csv('C:/Users/user/Desktop/exam.csv')
@@ -22,7 +22,7 @@ workbook = Workbook()
 sheet = workbook.active
 
 # 데이터 입력
-sheet['A1'] = '숫자'
+sheet['C2'] = '숫자'
 sheet.append([1, 2, 3])
 sheet.append(['김유신', '김춘추', '장보고', '강감찬', '이순신'])
 sheet.cell(5, 5, 'E열 5행 데이터')
