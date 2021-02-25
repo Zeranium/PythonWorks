@@ -1,7 +1,35 @@
 """
-날짜 : 0000/00/00
-이름 : 홍길동
+날짜 : 2021/02/25
+이름 : 장한결
 내용 : 교재 p155 - 생성자 예
 """
 
+class multiply :
+    x = y = 0
 
+    def __init__(self, x, y):
+        self.x = x
+        self.y = y
+
+    def mul(self):
+        return self.x * self.y
+
+obj = multiply(10, 20)
+print('곱셈 =', obj.mul())
+
+class multiply2:
+    x = y = 0
+
+    def __init__(self):
+        pass
+
+    def data(self, x, y):
+        self.x = x
+        self.y = y
+
+    def mul(self):
+        return self.x * self.y
+
+obj = multiply2()
+obj.data(10, 20)
+print('곱셈 =', obj.mul())
