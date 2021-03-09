@@ -34,7 +34,7 @@ for tr in trs:
     sea      = tr.find_element_by_css_selector('td:nth-child(14)').text
 
     # SQL 실행
-    sql = "INSERT INTO `WEATHER` SET "
+    sql = "INSERT INTO `Weather` SET "
     sql += "`city`='"+city+"',"
     sql += "`visible`='"+visible+"',"
     sql += "`temp`='"+temp+"',"
@@ -49,7 +49,7 @@ for tr in trs:
     cursor.execute(sql)
     conn.commit()
 
-    print('수집 중')
+    print('수집 중..')
 
     #print(city, visible, temp, dew, feel, humidity, wind_dir, wind_spd, sea)
 
